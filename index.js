@@ -1,6 +1,10 @@
 const today = new Date();
+const random = number => (Math.floor(Math.random() * number) + 1) - 1;
+const hey = ["✌️", "👋", "🤙", "🤘"][random(4)];
+const love = ["🫶", "❤️", "💙", "💖", "🩷"][random(5)];
+const robot = ["🤖", "👾", "🧑‍💻", "🚀"][random(4)];
 const readme = `
-# ${Math.floor(Math.random() * 2) + 1 % 2 === 0 ? "✌️" : "👋"} Hey, I'm Lionel !
+# ${hey} Hey, I'm Lionel !
 
 - 💼 A full stack web developer and graphic designer working as a freelancer!
 - 🌱 Based in Reunion Island, I'm a web and design enthusiast.
@@ -31,7 +35,7 @@ Thanks for visiting my profile !<br>
 
 Last update on ${today.toDateString()}
 
-This README.md is updated with ${Math.floor(Math.random() * 2) + 1 % 2 === 0 ? "🫶" : "❤️"} by my personal bot ${Math.floor(Math.random() * 2) + 1 % 2 === 0 ? "🤖" : "👾"}
+This README.md is updated with ${love} by my personal bot ${robot}
 `;
 
 console.log(readme);
