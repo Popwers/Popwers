@@ -1,6 +1,6 @@
 const today = new Date();
 const readme = `
-# ${today.getDate() % 2 === 0 ? "✌️" : "👋"} Hey, I'm Lionel !
+# ${Math.floor(Math.random() * 2) + 1 % 2 === 0 ? "✌️" : "👋"} Hey, I'm Lionel !
 
 - 💼 A full stack web developer and graphic designer working as a freelancer!
 - 🌱 Based in Reunion Island, I'm a web and design enthusiast.
@@ -31,7 +31,7 @@ Thanks for visiting my profile !<br>
 
 Last update on ${today.toDateString()}
 
-This README.md is updated with ${today.getDate() % 2 === 0 ? "🫶" : "❤️"} by my personal bot ${today.getDate() % 2 === 0 ? "🤖" : "👾"}
+This README.md is updated with ${Math.floor(Math.random() * 2) + 1 % 2 === 0 ? "🫶" : "❤️"} by my personal bot ${Math.floor(Math.random() * 2) + 1 % 2 === 0 ? "🤖" : "👾"}
 `;
 
 console.log(readme);
