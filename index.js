@@ -1,4 +1,6 @@
-# 👋 Hey, I'm Lionel !
+const today = new Date();
+const readme = `
+# ${today.getDate() % 2 === 0 ? "✌️" : "👋"} Hey, I'm Lionel !
 
 - 💼 A full stack web developer and graphic designer working as a freelancer!
 - 🌱 Based in Reunion Island, I'm a web and design enthusiast.
@@ -27,4 +29,9 @@ Thanks for visiting my profile !<br>
 <br>
 <img style="background-color: #000; padding: 10px; border-radius: 10px" src="https://profile-counter.glitch.me/Popwers/count.svg" />
 
-Last update on Thu Jul 27 2023
+Last update on ${today.toDateString()}
+
+This README.md is updated with ${today.getDate() % 2 === 0 ? "🫶" : "❤️"} by my personal bot ${today.getDate() % 2 === 0 ? "🤖" : "👾"}
+`;
+
+console.log(readme);
