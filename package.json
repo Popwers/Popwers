@@ -1,9 +1,0 @@
-{
-  "name": "popwers_readme",
-  "version": "1.0.0",
-  "description": "Generate my GitHub profile README.md automatically with Node.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
-}
