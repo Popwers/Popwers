@@ -27,6 +27,7 @@ const readme = `
 <div>
 	<img src="https://skillicons.dev/icons?i=git,github,docker,figma" alt="Icon of git, github, docker and figma">
 </div>
+<br>
 
 ## Visitors
 Thanks for visiting my profile !<br>
