@@ -29,7 +29,7 @@ Thanks for visiting my profile !<br>
 <br>
 <img style="background-color: #000; padding: 10px; border-radius: 10px" src="https://profile-counter.glitch.me/Popwers/count.svg" />
 
-Last update on Sun Sep 17 2023
+Last update on Mon Sep 18 2023
 
-This README.md is updated with 🩷 by my personal bot 🚀
+This README.md is updated with 💙 by my personal bot 🧑‍💻
 
