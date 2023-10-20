@@ -1,35 +1,35 @@
 
-# ✌️ Hey, I'm Lionel !
+# 🤘 Hey, I'm Lionel!
 
-- 💼 A full stack web developer and graphic designer working as a freelancer!
-- 🌱 Based in Reunion Island, I'm a web and design enthusiast.
-- 📫 Want to reach me for your projects? Just send me an email at: lionel.bataille@mystudio.digital
-- 👉 Check my website : [mystudio.digital](https://mystudio.digital/)
+- 💻 A freelance Full Stack / DevOps Web Developer and Graphic Designer.
+- 🌴 Based in Reunion Island, I'm passionate about all things web and design.
+- 📩 Interested in collaborating? Reach out to me via email: lionel.bataille@mystudio.digital
+- 👉 Explore my work on my website: [mystudio.digital](https://mystudio.digital/)
 <br>
 
-## My Stack
-### Basic
+## My Tech Stack
+### Languages
 <div>
-	<img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,php,mysql" alt="Icon of html, css, sass, js, ts, php and mysql">
+	<img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,php,mysql" alt="HTML, CSS, Sass, JavaScript, TypeScript, PHP, and MySQL">
 </div>
 
 ### Frameworks
 <div>
-	<img src="https://skillicons.dev/icons?i=wordpress,nodejs,vite,react,nextjs,redux,vue,nuxtjs,symfony" alt="Icon of wordpress, nodejs, vite, react, nextjs, redux, vue, nuxtjs and symfony">
+	<img src="https://skillicons.dev/icons?i=wordpress,nodejs,vite,react,nextjs,redux,vue,nuxtjs,symfony" alt="WordPress, Node.js, Vite, React, Next.js, Redux, Vue, Nuxt.js, and Symfony">
 </div>
 
 ### Tools
 <div>
-	<img src="https://skillicons.dev/icons?i=git,github,docker,figma" alt="Icon of git, github, docker and figma">
+	<img src="https://skillicons.dev/icons?i=git,github,docker,aws,figma" alt="Git, GitHub, Docker, AWS and Figma">
 </div>
 <br>
 
-## Visitors
-Thanks for visiting my profile !<br>
+## Thanks for Visiting!
+👀 You are visitor number:
 <br>
 <img style="background-color: #000; padding: 10px; border-radius: 10px" src="https://profile-counter.glitch.me/Popwers/count.svg" />
 
-Last update on Thu Oct 19 2023
+Last update on Fri Oct 20 2023
 
-This README.md is updated with 💙 by my personal bot 🧑‍💻
+This README.md was updated with 🫶 by my personal bot 🚀
 
