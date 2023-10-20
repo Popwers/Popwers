@@ -1,5 +1,5 @@
 
-# 🤘 Hey, I'm Lionel!
+# 🤙 Hey, I'm Lionel!
 
 - 💻 A freelance Full Stack / DevOps Web Developer and Graphic Designer.
 - 🌴 Based in Reunion Island, I'm passionate about all things web and design.
@@ -31,5 +31,5 @@
 
 Last update on Fri Oct 20 2023
 
-This README.md was updated with 🫶 by my personal bot 🚀
+This README.md was updated with 🫶 by my personal bot 🧑‍💻
 
