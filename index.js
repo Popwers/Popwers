@@ -1,10 +1,11 @@
 const today = new Date();
-const random = number => (Math.floor(Math.random() * number) + 1) - 1;
-const hey = ["✌️", "👋", "🤙", "🤘"][random(4)];
-const love = ["🫶", "❤️", "💙", "💖", "🩷"][random(5)];
-const robot = ["🤖", "👾", "🧑‍💻", "🚀"][random(4)];
+const random = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const hey = random(["✌️", "👋", "🤙", "🤘"]);
+const love = random(["🫶", "❤️", "💙", "💖", "🩷"]);
+const robot = random(["🤖", "👾", "🧑‍💻", "🚀"]);
+
 const readme = `
-# ${hey} Hey, I'm Lionel!
+# ${hey}  Hey There, I'm Lionel!
 
 - 💻 A freelance Full Stack / DevOps Web Developer and Graphic Designer.
 - 🌴 Based in Reunion Island, I'm passionate about all things web and design.
@@ -12,26 +13,25 @@ const readme = `
 - 👉 Explore my work on my website: [mystudio.digital](https://mystudio.digital/)
 <br>
 
-## My Tech Stack
+## 🛠️  My Tech Stack
 ### Languages
 <div>
-	<img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,php,mysql" alt="HTML, CSS, Sass, JavaScript, TypeScript, PHP, and MySQL">
+	<img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,js,ts,jquery,php,mysql" alt="HTML, CSS, Sass, Tailwind, JavaScript, TypeScript, jQuery, PHP and MySQL" title="HTML, CSS, Sass, Tailwind, JavaScript, TypeScript, jQuery, PHP, MySQL">
 </div>
 
-### Frameworks
+### Frameworks and Libraries
 <div>
-	<img src="https://skillicons.dev/icons?i=wordpress,nodejs,vite,react,nextjs,redux,vue,nuxtjs,symfony" alt="WordPress, Node.js, Vite, React, Next.js, Redux, Vue, Nuxt.js, and Symfony">
+	<img src="https://skillicons.dev/icons?i=astro,bun,nodejs,vite,react,nextjs,vue,nuxtjs,wordpress,symfony" alt="Astro, Bun, Node.js, Vite, React, Next.js, Vue, Nuxt.js, WordPress, Symfony" title="Astro, Bun, Node.js, Vite, React, Next.js, Vue, Nuxt.js, WordPress, Symfony">
 </div>
 
-### Tools
+### Tools and Platforms
 <div>
-	<img src="https://skillicons.dev/icons?i=git,github,docker,aws,figma" alt="Git, GitHub, Docker, AWS and Figma">
+	<img src="https://skillicons.dev/icons?i=docker,nginx,git,github,linux,bash,vim,md,aws,cloudflare,sentry,figma" alt="Docker, Nginx, Git, GitHub, Linux, Bash, Vim, Markdown, AWS, Cloudflare, Sentry, Figma" title="Docker, Nginx, Git, GitHub, Linux, Bash, Vim, Markdown, AWS, Cloudflare, Sentry, Figma">
 </div>
 <br>
 
-## Thanks for Visiting!
-👀 You are visitor number:
-<br>
+## 👀  Visitor Count
+
 <img style="background-color: #000; padding: 10px; border-radius: 10px" src="https://profile-counter.glitch.me/Popwers/count.svg" />
 
 Last update on ${today.toDateString()}

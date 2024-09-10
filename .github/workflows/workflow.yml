@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3.7.0
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Generate README
-        run: node index.js > README.md
+        run: bun index.js > README.md
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9.1.3
