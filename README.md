@@ -1,5 +1,5 @@
 
-# 👋  Hey There, I'm Lionel!
+# 🤘  Hey There, I'm Lionel!
 
 - 💻 A freelance Full Stack / DevOps Web Developer and Graphic Designer.
 - 🌴 Based in Reunion Island, I'm passionate about all things web and design.
@@ -28,7 +28,7 @@
 
 <img style="background-color: #000; padding: 10px; border-radius: 10px" src="https://profile-counter.glitch.me/Popwers/count.svg" />
 
-Last update on Fri Oct 11 2024
+Last update on Sat Oct 12 2024
 
-This README.md was updated with ❤️ by my personal bot 🚀
+This README.md was updated with 🩷 by my personal bot 🤖
 
