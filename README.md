@@ -28,7 +28,7 @@
 
 <img style="background-color: #000; padding: 10px; border-radius: 10px" src="https://profile-counter.glitch.me/Popwers/count.svg" />
 
-Last update on Sun Jan 12 2025
+Last update on Mon Jan 13 2025
 
-This README.md was updated with 🩷 by my personal bot 🚀
+This README.md was updated with 🫶 by my personal bot 🚀
 
