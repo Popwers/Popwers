@@ -1,0 +1,15 @@
+[runtime]
+primary = "app_server"
+fallback = "cli"
+model = "gpt-5.3-codex"
+reasoning_effort = "high"
+sandbox_isolated = "danger-full-access"
+
+[policy]
+require_human_approval = true
+open_pr_always = true
+auto_merge = false
+
+[limits]
+max_duration_minutes = 30
+max_retries = 2
