@@ -1,0 +1,12 @@
+[runtime]
+primary = "app_server"
+fallback = "cli"
+
+[policy]
+require_human_approval = true
+open_pr_always = true
+auto_merge = false
+
+[limits]
+max_duration_minutes = 30
+max_retries = 2
