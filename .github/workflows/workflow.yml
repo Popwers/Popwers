@@ -3,13 +3,21 @@ name: Generate README
 on:
   workflow_dispatch:
   push:
+    branches: [main]
   schedule:
     - cron: '0 14 * * *'
+
+# One run at a time: a push and the cron must not both commit README.md. Queued, never cancelled mid-commit.
+concurrency:
+  group: generate-readme
+  cancel-in-progress: false
 
 jobs:
   generate-readme:
     name: Generate README
     runs-on: ubuntu-latest
+    # Normal run is about 15 s. Without a timeout a hang bills up to 6 h.
+    timeout-minutes: 5
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
