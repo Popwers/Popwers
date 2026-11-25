@@ -30,10 +30,6 @@ const readme = `
 </div>
 <br>
 
-## 👀  Visitor Count
-
-<img style="background-color: #000; padding: 10px; border-radius: 10px" src="https://profile-counter.glitch.me/Popwers/count.svg" />
-
 Last update on ${today.toDateString()}
 
 This README.md was updated with ${love} by my personal bot ${robot}
