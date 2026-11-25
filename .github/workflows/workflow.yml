@@ -7,6 +7,10 @@ on:
   schedule:
     - cron: '0 14 * * *'
 
+# The repository default token is read-write on every scope. The job only commits README.md.
+permissions:
+  contents: write
+
 # One run at a time: a push and the cron must not both commit README.md. Queued, never cancelled mid-commit.
 concurrency:
   group: generate-readme
